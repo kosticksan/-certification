@@ -1,10 +1,131 @@
-html {
-    font-family: 'Jost', sans-serif;
-    font-family: 'Poppins', sans-serif;
+@font-face {
+    font-weight: 400;
+    font-family: "Poppins-Medium", sans-serif;
+    src: url(./fonts/Poppins-Medium.ttf);
 }
+
+@font-face {
+    font-weight: 700;
+    font-family: "Poppins-Bold", sans-serif;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Jost-Medium", sans-serif;
+    src: url(./fonts/Jost-Medium.ttf);
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Jost-Bold", sans-serif;
+    src: url(./fonts/Jost-Medium.ttf);
+}
+
 
 body {
     background-color: white;
     width: 1440px;
     margin: 0px auto;
+}
+
+.logo_nav {
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+.logo {
+    font-family: "Poppins-bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #0E0578;
+    line-height: 1.5;
+    margin-right: 250px;
+    margin-bottom: 200px;
+}
+
+nav {
+    display: flex;
+    align-content: space-around ;
+}
+
+nav > a {
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: #686565;
+    margin-right: 75px;
+}
+
+.welcome {
+    margin: 0px 75px 150px 75px;
+    display: flex;
+}
+
+.text_button {
+    width: 616px;
+    margin-right: 75px;
+}
+
+.information h1 {
+    font-family: "Poppins-bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #2000E7;
+    width: 447px;
+}
+
+.orange {
+    color: #F2BD00;
+}
+
+.text_button > h2 {
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    color: #2000E7;
+}
+
+.information p {
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #383838;
+}
+
+.steven {
+    margin-right: 65px;
+}
+
+.hire_me {
+    width: 246px;
+    height: 72px;
+    border-radius: 10px;
+    background-color: #2000E7;
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 11px 21px 15px 6px #00000040;
+    margin-right: 50px;
+}
+
+.my_project {
+    width: 246px;
+    height: 72px;
+    border-radius: 10px;
+    background-color: #2000E70A;
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #2000E7;
+    border: 2px solid #2000E7;
+    box-shadow: 11px 21px 15px 6px #00000040;
 }
